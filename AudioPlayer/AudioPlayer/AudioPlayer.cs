@@ -17,4 +17,19 @@ public class AudioPlayer2
         }
     }
     Song[] songs;
+
+    public void volumeplus()
+    {
+        Volume++;
+    }
+    public void volumeminus()
+    {
+        Volume--;
+    }
+
+    public void volumechange(int step)
+    {
+        Volume+=step;
+    }
+
 }

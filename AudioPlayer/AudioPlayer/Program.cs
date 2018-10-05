@@ -12,6 +12,10 @@ namespace AudioPlayer
         {
             var player = new AudioPlayer2();
             player.Volume = 300;
+            player.volumeminus();
+            player.volumeminus();
+            player.volumeminus();
+            player.volumeplus();
             Console.WriteLine(player.Volume);
             Console.ReadLine();
 
